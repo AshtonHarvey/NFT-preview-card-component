@@ -1,0 +1,38 @@
+main {
+  box-sizing: border-box;
+  margin: 50% auto 50% auto;
+  padding: 1.5rem;
+  width: 330px;
+  border-radius: 10px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.balanceContainer {
+  display: flex;
+}
+
+.cardTitle {
+  margin-bottom: 1rem;
+}
+
+.cardText {
+  margin-bottom: 1rem;
+}
+
+.balanceText {
+  width: 80px;
+}
+
+.balanceTimeRemaining {
+  margin-left: 50%;
+  width: 80px;
+}
+
+hr {
+  opacity: 40%;
+}
