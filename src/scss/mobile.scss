@@ -25,14 +25,41 @@ img {
 }
 
 .balanceText {
+  margin-left: 0.4rem;
+  min-width: 100px;
+}
+
+.balanceTimeContainer {
+  margin-left: 25%;
   width: 80px;
+}
+
+.balanceTextContainer {
+  display: flex;
+}
+
+.balanceTimeContainer {
+  display: flex;
 }
 
 .balanceTimeRemaining {
-  margin-left: 50%;
-  width: 80px;
+  margin-left: 0.4rem;
+  min-width: 100px;
 }
 
 hr {
-  opacity: 40%;
+  margin-bottom: 1rem;
+}
+
+.signatureContainer {
+  display: flex;
+  img {
+    border-radius: 50%;
+    width: 2.25rem;
+    border: 0.15rem solid white;
+    margin: 0;
+  }
+}
+.authorSignature {
+  margin: 0.7rem 0 0 1rem;
 }

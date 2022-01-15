@@ -8,8 +8,25 @@ $custom-white: hsl(0, 0%, 100%);
 
 body {
   background-color: $main-background-color;
+  color: white;
 }
 
 main {
   background-color: $card-background-color;
+}
+
+.balanceText {
+  color: $cyan;
+}
+
+.balanceTimeRemaining {
+  color: $soft-blue;
+}
+
+hr {
+  opacity: 20%;
+}
+
+.signature-Color {
+  opacity: 30%;
 }
